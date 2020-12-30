@@ -75,7 +75,7 @@ public class MatColorManager : MonoBehaviour
         {
             Color MyColor = new Color();
 
-            ColorUtility.TryParseHtmlString("", out MyColor);
+            ColorUtility.TryParseHtmlString("#9A9A9A", out MyColor);
             Band3.color = MyColor;
         }
 
@@ -90,14 +90,14 @@ public class MatColorManager : MonoBehaviour
         {
             Color MyColor = new Color();
 
-            ColorUtility.TryParseHtmlString("", out MyColor);
+            ColorUtility.TryParseHtmlString("#253E66", out MyColor);
             Band4.color = MyColor;
         }
         else if (ButtonName == "White")
         {
             Color MyColor = new Color();
 
-            ColorUtility.TryParseHtmlString("", out MyColor);
+            ColorUtility.TryParseHtmlString("#FFFFFF", out MyColor);
             Band4.color = MyColor;
         }
 
